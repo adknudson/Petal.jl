@@ -1,0 +1,13 @@
+name = "Petal"
+uuid = "ea575312-9345-4825-9b54-c62a1250f82e"
+authors = ["Alex Knudson <aknudson@nevada.unr.edu> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.3"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
